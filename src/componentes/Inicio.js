@@ -37,7 +37,7 @@ const Inicio = props => {
                         <h2>Sobre mim</h2><br />
                         <p>Experiência desde pequeno com Computadores e Internet,
                             Formatação e montagem de computador, instalação de Windows, Linux, pacote Office e outro...
-                            Facilidade para identificar problemas quanto a mau funcionamento do computador e resolvelos</p>
+                            Facilidade para identificar problemas quanto a mal funcionamento do computador e resolvê-los</p>
                         <br /><button className='btn btn-default btn-lg'><Link to='/portfolio'>CONTATO</Link></button>
                     </div>
                     <div className='col-sm-4'>
