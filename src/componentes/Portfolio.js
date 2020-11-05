@@ -33,6 +33,9 @@ const Portfolio = props => {
                                 <div class="btn-group">
                                     <a href="https://github.com/GabriellArthur/portfolio"><button type="button" class="btn btn-sm btn-outline-primary">Ver Código</button></a>
                                 </div>
+                                <div class="btn-group">
+                                    <a href="https://gabriellarthur.netlify.app"><button type="button" class="btn btn-sm btn-outline-primary">Ver Site</button></a>
+                                </div>
                             <p><small class="text-muted">Projeto Pessoal</small></p>
                         </div>
                     </div>
