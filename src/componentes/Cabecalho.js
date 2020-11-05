@@ -5,7 +5,7 @@ const Cabecalho = props => {
     return (
         <div>
             <div className='jumbotron text-center slide container-fluid panel-hover'>
-                <h1>PORTFOLIO</h1><br/>
+                <h1>PORTFÓLIO</h1><br/>
                 <p>Olá meu nome é Gabriel Arthur. </p>
                 <p>Atualmente sou Universitario na faculdade Universidade Catolica de Brasilia, cursando o 4°semestre/8°semestre. </p>
                 <p>Me indentifico bastante com o back-end mas sempre disposto a conhecer novas tecnologias.</p>
@@ -30,7 +30,7 @@ const Cabecalho = props => {
                     <div className='collapse navbar-collapse' id='myNavbar'>
                         <ul className='nav navbar-nav navbar-right'>
                             <li><Link to='/'>INICIO</Link></li>
-                            <li><Link to='/portfolio'>PORTFOLIO</Link></li>
+                            <li><Link to='/portfolio'>PORTFÓLIO</Link></li>
                             <li><Link to='/contato'>CONTATO</Link></li>
                         </ul>
                     </div>
