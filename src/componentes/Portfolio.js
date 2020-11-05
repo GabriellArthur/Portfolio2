@@ -22,7 +22,7 @@ const Portfolio = props => {
                 </div>
                 <div className='col-sm-4'>
                     <div className='thumbnail slide jumbotron'>
-                        <img src='https://i.ibb.co/TW9hMhD/Processed-with-VSCO-with-preset.jpg' alt='Primeiro Portifolio' width='400' height='300' />
+                        <img src='https://i.ibb.co/4ggwpkG/imagem-2020-11-05-030258.png' alt='Primeiro Portifolio' width='400' height='300' />
                         <p><strong>Segundo Portifolio</strong>
                         <p class="card-text">Meu segundo portfólio.</p>
                         <li>JavaScript</li>
