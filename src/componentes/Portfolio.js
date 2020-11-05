@@ -23,6 +23,26 @@ const Portfolio = props => {
                 <div className='col-sm-4'>
                     <div className='thumbnail slide jumbotron'>
                         <img src='https://i.ibb.co/TW9hMhD/Processed-with-VSCO-with-preset.jpg' alt='Primeiro Portifolio' width='400' height='300' />
+                        <p><strong>Segundo Portifolio</strong>
+                        <p class="card-text">Meu segundo portfólio.</p>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Bootstrap</li>
+                        </p>
+                        <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="https://github.com/GabriellArthur/Portfolio2"><button type="button" class="btn btn-sm btn-outline-primary">Ver Código</button></a>
+                                </div><br/>
+                                <div class="btn-group">
+                                    <a href="https://gabriellarthurr.netlify.app"><button type="button" class="btn btn-sm btn-outline-primary">Ver Site</button></a>
+                                </div>
+                            <p><small class="text-muted">Projeto Pessoal</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div className='col-sm-4'>
+                    <div className='thumbnail slide jumbotron'>
+                        <img src='https://i.ibb.co/TW9hMhD/Processed-with-VSCO-with-preset.jpg' alt='Primeiro Portifolio' width='400' height='300' />
                         <p><strong>Primeiro Portifolio</strong>
                         <p class="card-text">Meu primeiro portfólio.</p>
                         <li>HTML</li>
@@ -32,7 +52,7 @@ const Portfolio = props => {
                         <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
                                     <a href="https://github.com/GabriellArthur/portfolio"><button type="button" class="btn btn-sm btn-outline-primary">Ver Código</button></a>
-                                </div>
+                                </div><br/>
                                 <div class="btn-group">
                                     <a href="https://gabriellarthur.netlify.app"><button type="button" class="btn btn-sm btn-outline-primary">Ver Site</button></a>
                                 </div>
