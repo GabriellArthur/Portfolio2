@@ -8,8 +8,9 @@ const Inicio = props => {
                 <div className='row'>
                     <div className='col-sm-8'>
                         <h2>Carreira Academica</h2><br />
-                        <h4>Somos uma compania de tal coisa que faz x e y </h4>
-                        <p>Tem a maior infraestututra do mercado pronto para te atender </p>
+                        <h4>Assim que entrei na faculdade...</h4>
+                        <p>Dei de cara com a programação, tive dificuldades, pensei em até desistir do curso mas ao poucos fui começando a gostas e hoje é o que eu mais amo fazer.</p>
+                        <p>Já desenvolvi muitas coisas, algumas delas estão aqui a baixo, basta clickar no link.👈</p>
                         <br /><button className='btn btn-default btn-lg'><Link to='/portfolio'>PORTFOLIO</Link></button>
                     </div>
                     <div className='col-sm-4'>
@@ -25,8 +26,7 @@ const Inicio = props => {
                     </div>
                     <div className='col-sm-8'>
                         <h2>Carreira Profissional</h2><br />
-                        <h4><strong>MISSÃO:</strong> temos como uma missão de tal coisa </h4><br />
-                        <p><strong>PENSAMENTO:</strong> Nosso pensamentos vão alem do comum</p>
+                        <p><strong>MONITORIA:</strong>Aulas de Programação estruturada</p>
                     </div>
                 </div>
             </div>
@@ -35,8 +35,9 @@ const Inicio = props => {
                 <div className='row'>
                     <div className='col-sm-8'>
                         <h2>Sobre mim</h2><br />
-                        <h4>Somos uma compania de tal coisa que faz x e y </h4>
-                        <p>Tem a maior infraestututra do mercado pronto para te atender </p>
+                        <p>Experiência desde pequeno com Computadores e Internet,
+                            Formatação e montagem de computador, instalação de Windows, Linux, pacote Office e outro...
+                            Facilidade para identificar problemas quanto a mau funcionamento do computador e resolvelos</p>
                         <br /><button className='btn btn-default btn-lg'><Link to='/portfolio'>CONTATO</Link></button>
                     </div>
                     <div className='col-sm-4'>
