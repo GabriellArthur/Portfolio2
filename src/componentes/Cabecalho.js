@@ -11,7 +11,7 @@ const Cabecalho = props => {
                 <p>Me indentifico bastante com o back-end mas sempre disposto a conhecer novas tecnologias.</p>
                 <form>
                     <div className='btn-group'>
-                        <a href='/contato'><button type='button' className='btn btn-outline-primary'> CONTATO</button></a>
+                        <button type='button' className='btn btn-outline-primary'><Link to='/contato'>CONTATO</Link></button>
                     </div>
                 </form>
             </div>

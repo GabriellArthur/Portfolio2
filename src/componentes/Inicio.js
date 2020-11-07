@@ -10,7 +10,7 @@ const Inicio = props => {
                         <h4>Assim que entrei na faculdade...</h4>
                         <p>Dei de cara com a programação, tive dificuldades, pensei em até desistir do curso mas ao poucos fui começando a gostas e hoje é o que eu mais amo fazer.</p>
                         <p>Já desenvolvi muitas coisas, algumas delas estão aqui a baixo, basta clickar no link.👈</p>
-                        <br /><button type='button' className='btn btn-outline-primary'><Link to='/portfolio'>VER</Link></button>
+                        <br /><button type='button' className='btn btn-outline-primary'><Link to='/portfolio'>PORTFÓLIO</Link></button>
                     </div>
                     <div className='col-sm-4'>
                         <span className='glyphicon glyphicon-book logo'></span>
@@ -37,7 +37,7 @@ const Inicio = props => {
                         <p>Experiência desde pequeno com Computadores e Internet,
                             Formatação e montagem de computador, instalação de Windows, Linux, pacote Office e outro...
                             Facilidade para identificar problemas quanto a mal funcionamento do computador e resolvê-los</p>
-                        <br /><button type='button' className='btn btn-outline-primary'><Link to='/contato'>VER</Link></button>
+                        <br /><button type='button' className='btn btn-outline-primary'><Link to='/contato'>CONTATO</Link></button>
                     </div>
                     <div className='col-sm-4'>
                         <span className='glyphicon glyphicon-globe logo '></span>                    
