@@ -10,10 +10,8 @@ const Cabecalho = props => {
                 <p>Atualmente sou Universitario na faculdade Universidade Catolica de Brasilia, cursando o 4°semestre/8°semestre. </p>
                 <p>Me indentifico bastante com o back-end mas sempre disposto a conhecer novas tecnologias.</p>
                 <form>
-                    <div className='-group'>
-                        <div className='input-group-btn'>
-                            <button type='button' className='btn btn-danger'><Link to='/contato'>CONTATO</Link></button>
-                        </div>
+                    <div className='btn-group'>
+                        <a href='/contato'><button type='button' className='btn btn-outline-primary'> CONTATO</button></a>
                     </div>
                 </form>
             </div>
@@ -34,7 +32,7 @@ const Cabecalho = props => {
                             <li><Link to='/contato'>CONTATO</Link></li>
                         </ul>
                     </div>
-                </div><br/>
+                </div>
             </nav>
         </div>
     )

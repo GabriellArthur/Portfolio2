@@ -1,5 +1,4 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
 
 const Inicio = props => {
     return (
@@ -11,7 +10,7 @@ const Inicio = props => {
                         <h4>Assim que entrei na faculdade...</h4>
                         <p>Dei de cara com a programação, tive dificuldades, pensei em até desistir do curso mas ao poucos fui começando a gostas e hoje é o que eu mais amo fazer.</p>
                         <p>Já desenvolvi muitas coisas, algumas delas estão aqui a baixo, basta clickar no link.👈</p>
-                        <br /><button className='btn btn-default btn-lg'><Link to='/portfolio'>PORTFOLIO</Link></button>
+                        <br /><a href='/portfolio'><button type='button' className='btn btn-outline-primary'> PORTFÓLIO</button></a>
                     </div>
                     <div className='col-sm-4'>
                         <span className='glyphicon glyphicon-book logo'></span>
@@ -38,7 +37,7 @@ const Inicio = props => {
                         <p>Experiência desde pequeno com Computadores e Internet,
                             Formatação e montagem de computador, instalação de Windows, Linux, pacote Office e outro...
                             Facilidade para identificar problemas quanto a mal funcionamento do computador e resolvê-los</p>
-                        <br /><button className='btn btn-default btn-lg'><Link to='/contato'>CONTATO</Link></button>
+                        <br /><a href='/contato'><button type='button' className='btn btn-outline-primary'> CONTATO</button></a>
                     </div>
                     <div className='col-sm-4'>
                         <span className='glyphicon glyphicon-globe logo '></span>                    

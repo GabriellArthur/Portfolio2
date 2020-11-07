@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Jogo_da_forca = props => {
+const Jogo_2d = props => {
     return(
         <div>
             <div className='thumbnail panel-footer bg-grey slide'>
@@ -8,25 +8,24 @@ const Jogo_da_forca = props => {
                     <div className="jumbotron">
                         <p>IMAGENS</p>
                     </div>
-                    <div className='col-sm-3'>
+                    <div className='col-sm-4'>
                         <div className='thumbnail slide jumbotron'>
-                            
-                            <img src='https://i.ibb.co/jh4BPgC/imagem-2020-11-07-041610.png' alt='Jogo da forca em C' width='400' height='300' />
+                            <img src='https://i.ibb.co/mqN1815/imagem-2020-11-07-102126.png' alt='Jogo de zombis' width='400' height='300' />
                         </div>
                     </div>
-                    <div className='col-sm-3'>
+                    <div className='col-sm-4'>
                         <div className='thumbnail slide jumbotron'>
-                            <img src='https://i.ibb.co/cxs6Q6z/imagem-2020-11-07-041653.png' alt='Jogo da forca em C' width='400' height='300' />
+                            <img src='https://i.ibb.co/MRcKJmJ/imagem-2020-11-07-102146.png' alt='Jogo de zombis' width='400' height='300' />
                         </div>
                     </div>
-                    <div className='col-sm-3'>
+                    <div className='col-sm-4'>
                         <div className='thumbnail slide jumbotron'>
-                            <img src='https://i.ibb.co/47yckgR/imagem-2020-11-07-041725.png' alt='Jogo da forca em C' width='400' height='300' />
+                            <img src='https://i.ibb.co/qmw5qk8/imagem-2020-11-07-102326.png' alt='Jogo de zombis' width='400' height='300' />
                         </div>
                     </div>
-                    <div className='col-sm-3'>
+                    <div className='col-sm-4'>
                         <div className='thumbnail slide jumbotron'>
-                            <img src='https://i.ibb.co/0qx1Qg7/imagem-2020-11-07-041934.png' alt='Jogo da forca em C' width='400' height='300' />
+                            <img src='https://i.ibb.co/JcG1MNh/imagem-2020-11-07-102347.png' alt='Jogo de zombis' width='400' height='300' />
                         </div>
                     </div>
                 </div>
@@ -39,15 +38,15 @@ const Jogo_da_forca = props => {
                         <div className='row'>
                             <div className='col-sm-8'>
                                 <h2>Projeto</h2><br />
-                                <p>A ideia desse projeto era a criação de um jogo da forca para jogar sozinho(sinleplayer) ou com os amigos(multplayer) ultilizando a linguagem C.</p>
-                                <p>A partir dessas idea foi implementada um jogo com 3 dificuldades, sendo palavras e temas simples e complexos.</p>
-                                <p>A proposta multplayer é composta de dois jogadores, aonde um player escolhe o tema e a palavra chave e o outro player tenta decifrar.</p>
+                                <p>Projeto pensado um jogo em 2D de apocalipse zombi</p>
+                                <p>A ideia é ir passando de fase conforme os misterios...</p>
                             </div>
                             <div className='col-sm-4'>
                                 <h2>TECNOLOGIAS</h2>
                                 <p class="card-text"></p>
-                                <li>C</li>
-                                <a href="https://github.com/GabriellArthur/jogo-da-forca"><button type="button" class="btn btn-outline-primary"> Código</button></a>   
+                                <li>JAVA</li>
+                                <li>JPlay</li>
+                                <a href="https://github.com/GabriellArthur/Jogo2D"><button type="button" class="btn btn-outline-primary"> Código</button></a>   
                                 <p><small class="text-muted">Projeto universitário</small></p>                
                             </div>
                         </div>
@@ -58,4 +57,4 @@ const Jogo_da_forca = props => {
     )
 }
 
-export default Jogo_da_forca
+export default Jogo_2d

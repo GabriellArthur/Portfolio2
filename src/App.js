@@ -7,7 +7,11 @@ import Inicio from './componentes/Inicio'
 import Portfolio from './componentes/Portfolio'
 import Contato from './componentes/Contato'
 
+import Jogo_2d from './PortfolioItens/Jogo_2d'
 import Jogo_da_forca from './PortfolioItens/Jogo_da_forca'
+import UberEats_C from './PortfolioItens/UberEats_C'
+import UberEats_Java from './PortfolioItens/UberEats_Java'
+
 
 class App extends Component {
   render() {
@@ -17,8 +21,12 @@ class App extends Component {
           <Cabecalho />
           <Route path='/' exact component={Inicio} />
           <Route path='/portfolio' component={Portfolio} />
-          <Route path='/portfolio/jogo-da-forca' component={Jogo_da_forca} />
-          
+
+          <Route path='/jogo_2d' component={Jogo_2d} />
+          <Route path='/jogo-da-forca' component={Jogo_da_forca} />
+          <Route path='/UberEats_C' component={UberEats_C} />
+          <Route path='/UberEats_Java' component={UberEats_Java} />
+
           <Route path='/contato' component={Contato} />
           <Rodape />
         </div>
