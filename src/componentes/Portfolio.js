@@ -15,7 +15,7 @@ const Portfolio = props => {
                         </p>
                         <div class='d-flex justify-content-between align-items-center'>
                                 <div class='btn-group'>
-                                    <a href='https://gabriellarthurr.netlify.app'><button type='button' class='btn  btn-outline-primary'> Site</button></a>
+                                    <a href='https://gabrielarthurr.netlify.app'><button type='button' class='btn  btn-outline-primary'> Site</button></a>
                                     <a href='https://github.com/GabriellArthur/Portfolio2'><button type='button' class='btn  btn-outline-primary'> Código</button></a>
                                 </div>
                             <p><small class='text-muted'>Projeto Pessoal(11/2020)</small></p>
