@@ -48,7 +48,7 @@ const Jogo_da_forca = props => {
                                 <p class="card-text"></p>
                                 <li>C</li>
                                 <a href="https://github.com/GabriellArthur/jogo-da-forca"><button type="button" class="btn btn-outline-primary"> Código</button></a>   
-                                <p><small class="text-muted">Projeto Unisitario</small></p>                
+                                <p><small class="text-muted">Projeto universitários</small></p>                
                             </div>
                         </div>
                     </div>

@@ -66,7 +66,7 @@ const Portfolio = props => {
                                 <div class='btn-group'>
                                     <a href='https://github.com/GabriellArthur/uberEats'><button type='button' class='btn  btn-outline-primary'> Código</button></a>
                                 </div>
-                            <p><small class='text-muted'>Projeto Unisitario</small></p>
+                            <p><small class='text-muted'>Projeto Universitários</small></p>
                         </div>
                     </div>
                 </div>
@@ -81,7 +81,7 @@ const Portfolio = props => {
                                 <div class='btn-group'>
                                     <a href='https://github.com/GabriellArthur/TOCOMFOME'><button type='button' class='btn  btn-outline-primary'> Código</button></a>
                                 </div>
-                            <p><small class='text-muted'>Projeto Unisitario</small></p>
+                            <p><small class='text-muted'>Projeto Universitários</small></p>
                         </div>
                     </div>
                 </div>
@@ -97,7 +97,7 @@ const Portfolio = props => {
                                     <button type='button' className='btn btn-outline-primary'><Link to='/portfolio/jogo-da-forca'>VER</Link></button>
                                     <a href='https://github.com/GabriellArthur/jogo-da-forca'><button type='button' className='btn btn-outline-primary'> Código</button></a>
                                 </div>
-                            <p><small class='text-muted'>Projeto Unisitario</small></p>
+                            <p><small class='text-muted'>Projeto Universitários</small></p>
                         </div>
                     </div>
                 </div>
