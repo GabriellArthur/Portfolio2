@@ -24,6 +24,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/minhacarteira" />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,5 +35,11 @@
       <updated>1604730287656</updated>
     </task>
     <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1605391771173">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1366.305.1366.768@0.0.1920.1040" timestamp="1605391771172" />
   </component>
 </project>
