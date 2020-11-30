@@ -11,6 +11,9 @@ import Jogo_2d from './PortfolioItens/Jogo_2d'
 import Jogo_da_forca from './PortfolioItens/Jogo_da_forca'
 import UberEats_C from './PortfolioItens/UberEats_C'
 import UberEats_Java from './PortfolioItens/UberEats_Java'
+import Clone_do_spotify from './PortfolioItens/Clone_do_spotify'
+import Cadastro_CRUD from './PortfolioItens/Cadastro_CRUD'
+import Polishop from './PortfolioItens/Polishop'
 
 
 class App extends Component {
@@ -26,6 +29,9 @@ class App extends Component {
           <Route path='/jogo-da-forca' component={Jogo_da_forca} />
           <Route path='/UberEats_C' component={UberEats_C} />
           <Route path='/UberEats_Java' component={UberEats_Java} />
+          <Route path='/Clone_do_spotify' component={Clone_do_spotify} />
+          <Route path='/Cadastro_CRUD' component={Cadastro_CRUD} />
+          <Route path='/Polishop' component={Polishop} />
 
           <Route path='/contato' component={Contato} />
           <Rodape />

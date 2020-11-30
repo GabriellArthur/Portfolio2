@@ -52,7 +52,6 @@ const UberEats_C = props => {
                                 <h2>TECNOLOGIAS</h2>
                                 <p class="card-text"></p>
                                 <li>C</li>
-                                <a href="https://github.com/GabriellArthur/TOCOMFOME"><button type="button" class="btn btn-outline-primary"> Código</button></a>   
                                 <p><small class="text-muted">Projeto universitário</small></p>                
                             </div>
                         </div>

@@ -8,7 +8,7 @@ const Cabecalho = props => {
                 <h1>PORTFÓLIO</h1>
                 <p>Olá meu nome é Gabriel Arthur. </p>
                 <p>Atualmente sou Universitario na faculdade Universidade Catolica de Brasilia, cursando o 4°semestre/8°semestre. </p>
-                <p>Me indentifico bastante com o back-end mas sempre disposto a conhecer novas tecnologias.</p>
+                <p>Me indentifico bastante com o back-end mas disposto a conhecer novas tecnologias.</p>
                 <form>
                     <div className='btn-group'>
                         <button type='button' className='btn btn-outline-primary'><Link to='/contato'>CONTATO</Link></button>

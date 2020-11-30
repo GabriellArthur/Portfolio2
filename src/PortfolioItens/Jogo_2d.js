@@ -8,24 +8,26 @@ const Jogo_2d = props => {
                     <div className="jumbotron">
                         <p>IMAGENS</p>
                     </div>
-                    <div className='col-sm-4'>
-                        <div className='thumbnail slide jumbotron'>
-                            <img src='https://i.ibb.co/mqN1815/imagem-2020-11-07-102126.png' alt='Jogo de zombis' width='400' height='300' />
+                    <div className='card-container'>
+                        <div className='col-sm-4'>
+                            <div className='thumbnail slide jumbotron'>
+                                <img src='https://i.ibb.co/mqN1815/imagem-2020-11-07-102126.png' alt='Jogo de zombis' width='400' height='300' />
+                            </div>
                         </div>
-                    </div>
-                    <div className='col-sm-4'>
-                        <div className='thumbnail slide jumbotron'>
-                            <img src='https://i.ibb.co/MRcKJmJ/imagem-2020-11-07-102146.png' alt='Jogo de zombis' width='400' height='300' />
+                        <div className='col-sm-4'>
+                            <div className='thumbnail slide jumbotron'>
+                                <img src='https://i.ibb.co/MRcKJmJ/imagem-2020-11-07-102146.png' alt='Jogo de zombis' width='400' height='300' />
+                            </div>
                         </div>
-                    </div>
-                    <div className='col-sm-4'>
-                        <div className='thumbnail slide jumbotron'>
-                            <img src='https://i.ibb.co/qmw5qk8/imagem-2020-11-07-102326.png' alt='Jogo de zombis' width='400' height='300' />
+                        <div className='col-sm-4'>
+                            <div className='thumbnail slide jumbotron'>
+                                <img src='https://i.ibb.co/qmw5qk8/imagem-2020-11-07-102326.png' alt='Jogo de zombis' width='400' height='300' />
+                            </div>
                         </div>
-                    </div>
-                    <div className='col-sm-4'>
-                        <div className='thumbnail slide jumbotron'>
-                            <img src='https://i.ibb.co/JcG1MNh/imagem-2020-11-07-102347.png' alt='Jogo de zombis' width='400' height='300' />
+                        <div className='col-sm-4'>
+                            <div className='thumbnail slide jumbotron'>
+                                <img src='https://i.ibb.co/JcG1MNh/imagem-2020-11-07-102347.png' alt='Jogo de zombis' width='400' height='300' />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -46,7 +48,6 @@ const Jogo_2d = props => {
                                 <p class="card-text"></p>
                                 <li>JAVA</li>
                                 <li>JPlay</li>
-                                <a href="https://github.com/GabriellArthur/Jogo2D"><button type="button" class="btn btn-outline-primary"> Código</button></a>   
                                 <p><small class="text-muted">Projeto universitário</small></p>                
                             </div>
                         </div>

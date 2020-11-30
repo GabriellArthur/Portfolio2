@@ -1,32 +1,37 @@
 import React from 'react'
 
-const Jogo_da_forca = props => {
+const Cadastro_CRUD = props => {
     return(
         <div>
             <div className='thumbnail panel-footer bg-grey slide'>
-                <div className='row text-center'>
+                <div className='row'>
                     <div className="jumbotron">
                         <p>IMAGENS</p>
                     </div>
                     <div className='card-container'>
-                        <div className='col-sm-3'>
+                        <div className='col-sm-4'>
                             <div className='thumbnail slide jumbotron'>
-                                <img src='https://i.ibb.co/jh4BPgC/imagem-2020-11-07-041610.png' alt='Jogo da forca em C' width='400' height='300' />
+                                <img src='https://i.ibb.co/DfBnHRt/imagem-2020-11-30-164801.png' alt='Jogo de zombis' width='400' height='300' />
                             </div>
                         </div>
-                        <div className='col-sm-3'>
+                        <div className='col-sm-4'>
                             <div className='thumbnail slide jumbotron'>
-                                <img src='https://i.ibb.co/cxs6Q6z/imagem-2020-11-07-041653.png' alt='Jogo da forca em C' width='400' height='300' />
+                                <img src='https://i.ibb.co/Wkh9M4c/imagem-2020-11-30-164852.png' alt='Jogo de zombis' width='400' height='300' />
                             </div>
                         </div>
-                        <div className='col-sm-3'>
+                        <div className='col-sm-4'>
                             <div className='thumbnail slide jumbotron'>
-                                <img src='https://i.ibb.co/47yckgR/imagem-2020-11-07-041725.png' alt='Jogo da forca em C' width='400' height='300' />
+                                <img src='https://i.ibb.co/F32RtzB/imagem-2020-11-30-165010.png' alt='Jogo de zombis' width='400' height='300' />
                             </div>
                         </div>
-                        <div className='col-sm-3'>
+                        <div className='col-sm-4'>
                             <div className='thumbnail slide jumbotron'>
-                                <img src='https://i.ibb.co/0qx1Qg7/imagem-2020-11-07-041934.png' alt='Jogo da forca em C' width='400' height='300' />
+                                <img src='https://i.ibb.co/LZYjW0v/imagem-2020-11-30-165042.png' alt='Jogo de zombis' width='400' height='300' />
+                            </div>
+                        </div>
+                        <div className='col-sm-4'>
+                            <div className='thumbnail slide jumbotron'>
+                                <img src='https://i.ibb.co/CWhQnDj/imagem-2020-11-30-165108.png' alt='Jogo de zombis' width='400' height='300' />
                             </div>
                         </div>
                     </div>
@@ -40,14 +45,15 @@ const Jogo_da_forca = props => {
                         <div className='row'>
                             <div className='col-sm-8'>
                                 <h2>Projeto</h2><br />
-                                <p>A ideia desse projeto era a criação de um jogo da forca para jogar sozinho(sinleplayer) ou com os amigos(multplayer) ultilizando a linguagem C.</p>
-                                <p>A partir dessas idea foi implementada um jogo com 3 dificuldades, sendo palavras e temas simples e complexos.</p>
-                                <p>A proposta multplayer é composta de dois jogadores, aonde um player escolhe o tema e a palavra chave e o outro player tenta decifrar.</p>
+                                <p>Um projeto pensado em registro de pessoas, famoso CRUD</p>
+                                <p>(Create, Read, Update and Delete)</p>
                             </div>
                             <div className='col-sm-4'>
                                 <h2>TECNOLOGIAS</h2>
                                 <p class="card-text"></p>
-                                <li>C</li> 
+                                <li>Angular<small class='text-muted'>(Front-end)</small></li>
+                                <li>Spring<small class='text-muted'>(Back-end)</small></li>
+                                <li>MySQL<small class='text-muted'>(DBA)</small></li>
                                 <p><small class="text-muted">Projeto universitário</small></p>                
                             </div>
                         </div>
@@ -58,4 +64,4 @@ const Jogo_da_forca = props => {
     )
 }
 
-export default Jogo_da_forca
+export default Cadastro_CRUD
