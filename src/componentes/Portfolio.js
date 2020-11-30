@@ -60,7 +60,7 @@ const Portfolio = props => {
                     <div className='thumbnail slide jumbotron'>
                         <img src='https://i.ibb.co/xz1y4NJ/linguagem-de-programacao-de-java.jpg' alt='UberEats em JAVA'/>
                         <p><strong>UberEats</strong>
-                        <p class='card-text'>Simulação de como é um sistema de entregas de comida voltada só ao cliente, com criação e automatização de restaurantes e entregadores.</p>
+                        <p class='card-text'></p>
                         <li>Java</li>
                         </p>
                         <div class='d-flex justify-content-between align-items-center'>
@@ -76,7 +76,7 @@ const Portfolio = props => {
                     <div className='thumbnail slide jumbotron'>
                         <img src='https://i.ibb.co/BVb2PMK/letter-c-PNG22.png' alt='UberEats em C'/>
                         <p><strong>ToComFome</strong>
-                        <p class='card-text'>Um clone identico e sem interface do UberEats com sistemas de entregador, restaurante e cliente.</p>
+                        <p class='card-text'></p>
                         <li>C</li>
                         </p>
                         <div class='d-flex justify-content-between align-items-center'>
@@ -92,7 +92,7 @@ const Portfolio = props => {
                     <div className='thumbnail slide jumbotron'>
                         <img src='https://i.ibb.co/rQwP9vq/unnamed.jpg' alt='Jogo da forca em C'/>
                         <p><strong>Jogo da forca</strong>
-                        <p class='card-text'>Com uma proposta singleplayer e multplayer com dificuldades variadas de palavras e suas complexidades</p>
+                        <p class='card-text'></p>
                         <li>C</li>
                         </p>
                         <div class='d-flex justify-content-between align-items-center'>
