@@ -7,9 +7,10 @@ const Portfolio = props => {
             <div className='row card-container'> 
                 <div className='col-sm-3'>
                     <div className='thumbnail slide jumbotron'>
-                        <img src='https://i.ibb.co/Ws6bD6F/800px-Spring-Framework-Logo-2018-svg.png' alt='Clone do Spotify'/>
+                        <img src='https://i.ibb.co/qydPsPd/800px-Spring-Framework-Logo-2018-svg.png' alt='Clone do Spotify'/>
                         <p><strong>Cadastro - CRUD</strong>
                         <li>Angular<small class='text-muted'>(Front-end)</small></li>
+                        <li>Android<small class='text-muted'>(Mobile)</small></li>
                         <li>Spring<small class='text-muted'>(Back-end)</small></li>
                         <li>MySQL<small class='text-muted'>(DBA)</small></li>
                         </p>

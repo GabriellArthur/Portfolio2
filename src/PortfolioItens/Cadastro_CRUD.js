@@ -11,12 +11,17 @@ const Cadastro_CRUD = props => {
                     <div className='card-container'>
                         <div className='col-sm-4'>
                             <div className='thumbnail slide jumbotron'>
-                                <img src='https://i.ibb.co/DfBnHRt/imagem-2020-11-30-164801.png' alt='Jogo de zombis' width='400' height='300' />
+                                <img src='https://i.ibb.co/9wgkQBC/imagem-2020-12-08-190800.png' alt='Jogo de zombis' width='400' height='300' />
                             </div>
                         </div>
                         <div className='col-sm-4'>
                             <div className='thumbnail slide jumbotron'>
                                 <img src='https://i.ibb.co/Wkh9M4c/imagem-2020-11-30-164852.png' alt='Jogo de zombis' width='400' height='300' />
+                            </div>
+                        </div>
+                        <div className='col-sm-4'>
+                            <div className='thumbnail slide jumbotron'>
+                                <img src='https://i.ibb.co/HpZTmvJ/imagem-2020-12-08-190519.png' alt='Jogo de zombis' width='400' height='300' />
                             </div>
                         </div>
                         <div className='col-sm-4'>
@@ -27,11 +32,6 @@ const Cadastro_CRUD = props => {
                         <div className='col-sm-4'>
                             <div className='thumbnail slide jumbotron'>
                                 <img src='https://i.ibb.co/LZYjW0v/imagem-2020-11-30-165042.png' alt='Jogo de zombis' width='400' height='300' />
-                            </div>
-                        </div>
-                        <div className='col-sm-4'>
-                            <div className='thumbnail slide jumbotron'>
-                                <img src='https://i.ibb.co/CWhQnDj/imagem-2020-11-30-165108.png' alt='Jogo de zombis' width='400' height='300' />
                             </div>
                         </div>
                     </div>
@@ -52,6 +52,7 @@ const Cadastro_CRUD = props => {
                                 <h2>TECNOLOGIAS</h2>
                                 <p class="card-text"></p>
                                 <li>Angular<small class='text-muted'>(Front-end)</small></li>
+                                <li>Android<small class='text-muted'>(Mobile)</small></li>
                                 <li>Spring<small class='text-muted'>(Back-end)</small></li>
                                 <li>MySQL<small class='text-muted'>(DBA)</small></li>
                                 <p><small class="text-muted">Projeto universitário</small></p>                
