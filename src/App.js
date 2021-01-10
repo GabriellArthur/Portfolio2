@@ -24,7 +24,6 @@ class App extends Component {
           <Cabecalho />
           <Route path='/' exact component={Inicio} />
           <Route path='/portfolio' component={Portfolio} />
-
           <Route path='/jogo_2d' component={Jogo_2d} />
           <Route path='/jogo-da-forca' component={Jogo_da_forca} />
           <Route path='/UberEats_C' component={UberEats_C} />
@@ -32,7 +31,6 @@ class App extends Component {
           <Route path='/Clone_do_spotify' component={Clone_do_spotify} />
           <Route path='/Cadastro_CRUD' component={Cadastro_CRUD} />
           <Route path='/Polishop' component={Polishop} />
-
           <Route path='/contato' component={Contato} />
           <Rodape />
         </div>
