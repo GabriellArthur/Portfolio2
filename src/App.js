@@ -15,24 +15,32 @@ import Clone_do_spotify from './PortfolioItens/Clone_do_spotify'
 import Cadastro_CRUD from './PortfolioItens/Cadastro_CRUD'
 import Polishop from './PortfolioItens/Polishop'
 
+import Portfolio_Java from './Portifolios/Portfolio_Java'
+import Portfolio_BancoDeDados from './Portifolios/Portfolio_BancoDeDados'
+import Portfolio_JS from './Portifolios/Portfolio_JS'
+import Portfolio_C from './Portifolios/Portfolio_C'
 
 class App extends Component {
   render() {
     return (
       <BrowserRouter>
         <div className="App">
-          <Cabecalho />
-          <Route path='/' exact component={Inicio} />
-          <Route path='/portfolio' component={Portfolio} />
-          <Route path='/jogo_2d' component={Jogo_2d} />
-          <Route path='/jogo-da-forca' component={Jogo_da_forca} />
-          <Route path='/UberEats_C' component={UberEats_C} />
-          <Route path='/UberEats_Java' component={UberEats_Java} />
-          <Route path='/Clone_do_spotify' component={Clone_do_spotify} />
-          <Route path='/Cadastro_CRUD' component={Cadastro_CRUD} />
-          <Route path='/Polishop' component={Polishop} />
-          <Route path='/contato' component={Contato} />
-          <Rodape />
+         <Cabecalho />
+         <Route path='/' exact component={Inicio} />
+         <Route path='/portfolio' component={Portfolio} />
+         <Route path='/jogo_2d' component={Jogo_2d} />
+         <Route path='/jogo-da-forca' component={Jogo_da_forca} />
+         <Route path='/UberEats_C' component={UberEats_C} />
+         <Route path='/UberEats_Java' component={UberEats_Java} />
+         <Route path='/Clone_do_spotify' component={Clone_do_spotify} />
+         <Route path='/Cadastro_CRUD' component={Cadastro_CRUD} />
+         <Route path='/Polishop' component={Polishop} />
+         <Route path='/contato' component={Contato} />
+         <Route path='/Java' component={Portfolio_Java} />
+         <Route path='/BandoDeDados' component={Portfolio_BancoDeDados} />
+         <Route path='/Js' component={Portfolio_JS} />
+         <Route path='/C' component={Portfolio_C} />
+         <Rodape />
         </div>
       </BrowserRouter>
     );
