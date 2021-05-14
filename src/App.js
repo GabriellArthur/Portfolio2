@@ -14,11 +14,17 @@ import UberEats_Java from './PortfolioItens/UberEats_Java'
 import Clone_do_spotify from './PortfolioItens/Clone_do_spotify'
 import Cadastro_CRUD from './PortfolioItens/Cadastro_CRUD'
 import Polishop from './PortfolioItens/Polishop'
+import HomePage_facebook from './PortfolioItens/HomePage_facebook'
+import AplicativoSimples from './PortfolioItens/AplicativoSimples'
+import ConversorDeMoedas from './PortfolioItens/ConversorDeMoeda'
+import Login_Register from './PortfolioItens/Login_Register'
+import todoList from './PortfolioItens/todoList'
 
 import Portfolio_Java from './Portifolios/Portfolio_Java'
 import Portfolio_BancoDeDados from './Portifolios/Portfolio_BancoDeDados'
 import Portfolio_JS from './Portifolios/Portfolio_JS'
 import Portfolio_C from './Portifolios/Portfolio_C'
+import Portfolio_Flutter from './Portifolios/Portifolio_Flutter'
 
 class App extends Component {
   render() {
@@ -27,7 +33,9 @@ class App extends Component {
         <div className="App">
          <Cabecalho />
          <Route path='/' exact component={Inicio} />
+         <Route path='/contato' component={Contato} />
          <Route path='/portfolio' component={Portfolio} />
+
          <Route path='/jogo_2d' component={Jogo_2d} />
          <Route path='/jogo-da-forca' component={Jogo_da_forca} />
          <Route path='/UberEats_C' component={UberEats_C} />
@@ -35,11 +43,17 @@ class App extends Component {
          <Route path='/Clone_do_spotify' component={Clone_do_spotify} />
          <Route path='/Cadastro_CRUD' component={Cadastro_CRUD} />
          <Route path='/Polishop' component={Polishop} />
-         <Route path='/contato' component={Contato} />
+         <Route path='/HomePage_facebook' component={HomePage_facebook} />
+         <Route path='/AplicativoSimples' component={AplicativoSimples} />
+         <Route path='/ConversorDeMoedas' component={ConversorDeMoedas} />
+         <Route path='/Login_Register' component={Login_Register} />
+         <Route path='/todoList' component={todoList} />
+
          <Route path='/Java' component={Portfolio_Java} />
          <Route path='/BandoDeDados' component={Portfolio_BancoDeDados} />
          <Route path='/Js' component={Portfolio_JS} />
          <Route path='/C' component={Portfolio_C} />
+         <Route path='/Flutter' component={Portfolio_Flutter}/>
          <Rodape />
         </div>
       </BrowserRouter>

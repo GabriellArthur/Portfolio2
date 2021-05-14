@@ -7,10 +7,11 @@ const Portfolio_C = props => {
       <nav className='navbar'>
          <div className='collapse navbar-collapse' id='myNavbarPortifolio'>
             <ul className='nav navbar-nav navbar-header'>
-               <li><Link className='nav-link' to='/Java'>Java</Link></li>
+               <li><Link className='nav-link' to='/Java'>Java/Spring</Link></li>
                <li><Link className='nav-link' to='/BandoDeDados'>Banco de Dados</Link></li>
-               <li><Link className='nav-link' to='/Js'>JavaScript</Link></li>
+               <li><Link className='nav-link' to='/Js'>Js/Angular/React</Link></li>
                <li><Link className='nav-link' to='/C'>C</Link></li>
+               <li><Link className='nav-link' to='/Flutter'>Dart/Flutter</Link></li>
             </ul>
          </div>
       </nav>
