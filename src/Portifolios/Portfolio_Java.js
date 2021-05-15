@@ -16,6 +16,23 @@ const Portfolio_Java = props => {
                </div>
             </nav>
             <div className='row card-container'> 
+               <div className='col-sm-3'>
+                    <div className='thumbnail slide jumbotron'>
+                        <img src='https://i.ibb.co/0qWN9wh/imagem-2021-05-15-140956.png' alt='Clone do Spotify'/>
+                        <p><strong>Jogo de Estrategia  Multiplayer/Singleplayer</strong>
+                        <li>Java</li>
+                        </p>
+                        <div class='d-flex justify-content-between align-items-center'>
+                            <div class='btn-group'>
+                                <button type='button' className='btn btn-outline-primary'><Link to='/JogoEstrategia'>VER</Link></button>
+                            </div>
+                            <p>
+                                <small class='text-muted'>Projeto </small>
+                                <small class='text-muted'>Universitário(05/2021)</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
                 <div className='col-sm-3'>
                     <div className='thumbnail slide jumbotron'>
                         <img src='https://i.ibb.co/qydPsPd/800px-Spring-Framework-Logo-2018-svg.png' alt='Clone do Spotify'/>

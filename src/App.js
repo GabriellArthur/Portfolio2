@@ -19,6 +19,7 @@ import AplicativoSimples from './PortfolioItens/AplicativoSimples'
 import ConversorDeMoedas from './PortfolioItens/ConversorDeMoeda'
 import Login_Register from './PortfolioItens/Login_Register'
 import todoList from './PortfolioItens/todoList'
+import JogoEstrategia from './PortfolioItens/JogoEstrategia'
 
 import Portfolio_Java from './Portifolios/Portfolio_Java'
 import Portfolio_BancoDeDados from './Portifolios/Portfolio_BancoDeDados'
@@ -48,6 +49,7 @@ class App extends Component {
          <Route path='/ConversorDeMoedas' component={ConversorDeMoedas} />
          <Route path='/Login_Register' component={Login_Register} />
          <Route path='/todoList' component={todoList} />
+         <Route path='/JogoEstrategia' component={JogoEstrategia} />
 
          <Route path='/Java' component={Portfolio_Java} />
          <Route path='/BandoDeDados' component={Portfolio_BancoDeDados} />
