@@ -22,7 +22,7 @@ const Sobre = () => {
             </div>
             <button type='button' className='btn btn-warning btn-lg'><Link to='/portfolio'>PORTFÓLIO</Link></button>
             <br/>
-            <button type='button' className='btn btn-info btn-sm '><Link to='/contato'>CONTATO</Link></button>
+            <button type='button' className='btn btn-info btn-sm '><Link to='/Contact'>CONTATO</Link></button>
          </div>
       </div>
    )
