@@ -1,5 +1,7 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+import IconButton from '@material-ui/core/IconButton';
+import SvgIcon from '@material-ui/core/SvgIcon';
+import {Link} from 'react-router-dom';
 
 const Portfolio_Java = props => {
     return (
@@ -23,9 +25,13 @@ const Portfolio_Java = props => {
                         <li>Java</li>
                         </p>
                         <div class='d-flex justify-content-between align-items-center'>
-                            <div class='btn-group'>
-                                <button type='button' className='btn btn-outline-primary'><Link to='/JogoEstrategia'>VER</Link></button>
-                            </div>
+                           <IconButton aria-label="deletar">
+                              <Link className='nav-link' to='/JogoEstrategia'>
+                                 <SvgIcon>
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                                 </SvgIcon>
+                              </Link>
+                           </IconButton>
                             <p>
                                 <small class='text-muted'>Projeto </small>
                                 <small class='text-muted'>Universitário(05/2021)</small>
@@ -43,9 +49,13 @@ const Portfolio_Java = props => {
                         <li>MySQL<small class='text-muted'>(DBA)</small></li>
                         </p>
                         <div class='d-flex justify-content-between align-items-center'>
-                            <div class='btn-group'>
-                                <button type='button' className='btn btn-outline-primary'><Link to='/Cadastro_CRUD'>VER</Link></button>
-                            </div>
+                           <IconButton aria-label="deletar">
+                              <Link className='nav-link' to='/Cadastro_CRUD'>
+                                 <SvgIcon>
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                                 </SvgIcon>
+                              </Link>
+                           </IconButton>
                             <p>
                                 <small class='text-muted'>Projeto Pessoal</small>
                                 <small class='text-muted'>(11/2020)</small>
@@ -60,9 +70,13 @@ const Portfolio_Java = props => {
                         <li>Java</li>
                         </p>
                         <div class='d-flex justify-content-between align-items-center'>
-                            <div class='btn-group'>
-                                <button type='button' className='btn btn-outline-primary'><Link to='/Polishop'>VER</Link></button>
-                            </div>
+                           <IconButton aria-label="deletar">
+                              <Link className='nav-link' to='/Polishop'>
+                                 <SvgIcon>
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                                 </SvgIcon>
+                              </Link>
+                           </IconButton>
                             <p>
                                 <small class='text-muted'>Projeto </small>
                                 <small class='text-muted'>Universitário(11/2020)</small>
@@ -79,9 +93,13 @@ const Portfolio_Java = props => {
                         <li>JPlay</li>
                         </p>
                         <div class='d-flex justify-content-between align-items-center'>
-                            <div class='btn-group'>
-                                <button type='button' className='btn btn-outline-primary'><Link to='/Jogo_2d'>VER</Link></button>
-                            </div>
+                           <IconButton aria-label="deletar">
+                              <Link className='nav-link' to='/Jogo_2d'>
+                                 <SvgIcon>
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                                 </SvgIcon>
+                              </Link>
+                           </IconButton>
                             <p><small class='text-muted'>Projeto Pessoal(10/2020)</small></p>
                         </div>
                     </div>
@@ -94,9 +112,13 @@ const Portfolio_Java = props => {
                         <li>Java</li>
                         </p>
                         <div class='d-flex justify-content-between align-items-center'>
-                            <div class='btn-group'>
-                                <button type='button' className='btn btn-outline-primary'><Link to='/UberEats_Java'>VER</Link></button>
-                            </div>
+                           <IconButton aria-label="deletar">
+                              <Link className='nav-link' to='/UberEats_Java'>
+                                 <SvgIcon>
+                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                                 </SvgIcon>
+                              </Link>
+                           </IconButton>
                             <p><small class='text-muted'>Projeto Universitário(10/2020)</small></p>
                         </div>
                     </div>

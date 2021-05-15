@@ -1,5 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import IconButton from '@material-ui/core/IconButton';
+import SvgIcon from '@material-ui/core/SvgIcon';
+import {Link} from 'react-router-dom';
 
 const Portfolio_Flutter = (props) => {
   return (
@@ -49,11 +51,13 @@ const Portfolio_Flutter = (props) => {
               <li>Flutter</li>
             </p>
             <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <button type="button" className="btn btn-outline-primary">
-                  <Link to="/HomePage_facebook">VER</Link>
-                </button>
-              </div>
+               <IconButton aria-label="deletar">
+                  <Link className='nav-link' to='/HomePage_facebook'>
+                     <SvgIcon>
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                     </SvgIcon>
+                  </Link>
+               </IconButton>
               <p>
                 <small class="text-muted">Projeto Pessoal</small>
               </p>
@@ -73,11 +77,13 @@ const Portfolio_Flutter = (props) => {
               <li>Flutter</li>
             </p>
             <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <button type="button" className="btn btn-outline-primary">
-                  <Link to="/AplicativoSimples">VER</Link>
-                </button>
-              </div>
+               <IconButton aria-label="deletar">
+                  <Link className='nav-link' to='/AplicativoSimples'>
+                     <SvgIcon>
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                     </SvgIcon>
+                  </Link>
+               </IconButton>
               <p>
                 <small class="text-muted">Projeto Pessoal</small>
               </p>
@@ -97,11 +103,13 @@ const Portfolio_Flutter = (props) => {
               <li>Flutter</li>
             </p>
             <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <button type="button" className="btn btn-outline-primary">
-                  <Link to="/ConversorDeMoedas">VER</Link>
-                </button>
-              </div>
+               <IconButton aria-label="deletar">
+                  <Link className='nav-link' to='/ConversorDeMoedas'>
+                     <SvgIcon>
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                     </SvgIcon>
+                  </Link>
+               </IconButton>
               <p>
                 <small class="text-muted">Projeto Pessoal</small>
               </p>
@@ -121,11 +129,13 @@ const Portfolio_Flutter = (props) => {
               <li>Flutter</li>
             </p>
             <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <button type="button" className="btn btn-outline-primary">
-                  <Link to="/Login_Register">VER</Link>
-                </button>
-              </div>
+               <IconButton aria-label="deletar">
+                  <Link className='nav-link' to='/Login_Register'>
+                     <SvgIcon>
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                     </SvgIcon>
+                  </Link>
+               </IconButton>
               <p>
                 <small class="text-muted">Projeto Pessoal</small>
               </p>
@@ -145,11 +155,13 @@ const Portfolio_Flutter = (props) => {
               <li>Flutter</li>
             </p>
             <div class="d-flex justify-content-between align-items-center">
-              <div class="btn-group">
-                <button type="button" className="btn btn-outline-primary">
-                  <Link to="/todoList">VER</Link>
-                </button>
-              </div>
+               <IconButton aria-label="deletar">
+                  <Link className='nav-link' to='/todoList'>
+                     <SvgIcon>
+                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                     </SvgIcon>
+                  </Link>
+               </IconButton>
               <p>
                 <small class="text-muted">Projeto Pessoal</small>
               </p>

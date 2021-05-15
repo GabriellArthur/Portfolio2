@@ -3,7 +3,8 @@ import { BrowserRouter, Route } from 'react-router-dom'
 
 import Rodape from './componentes/Rodape';
 import Cabecalho from './componentes/Cabecalho'
-import Inicio from './componentes/Inicio'
+import Inicial from './componentes/Inicial'
+import Sobre from './componentes/Sobre'
 import Portfolio from './componentes/Portfolio'
 import Contato from './componentes/Contato'
 
@@ -33,9 +34,10 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
          <Cabecalho />
-         <Route path='/' exact component={Inicio} />
-         <Route path='/contato' component={Contato} />
-         <Route path='/portfolio' component={Portfolio} />
+         <Route path='/' exact component={Inicial} />
+         <Route path='/About' exact component={Sobre} />
+         <Route path='/Contact' component={Contato} />
+         <Route path='/Portfolio' component={Portfolio} />
 
          <Route path='/jogo_2d' component={Jogo_2d} />
          <Route path='/jogo-da-forca' component={Jogo_da_forca} />

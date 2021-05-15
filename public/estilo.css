@@ -1,7 +1,7 @@
     body{
-        font: 400 15px Lato, sans-serif;
-        line-height: 1.8;
-        color: #818181;
+      font: 400 15px Lato, sans-serif;
+      line-height: 1.8;
+      color: #818181;
     }
     h2{
         font-size: 24px;
@@ -16,10 +16,13 @@
         color: #303030;
         font-weight: 400;
         margin-bottom: 30px;
-    }  
+    } 
     .video{
       display: flex;
       justify-content: center !important;
+   }
+   .titulo{
+      color: rgb(255, 0, 0) !important;
    }
     .jumbotron {
         background-color: rgb(54, 54, 54) !important;
