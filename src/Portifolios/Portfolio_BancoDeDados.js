@@ -42,6 +42,7 @@ const Portfolio_BancoDeDados = props => {
                   </div>
               </div>
           </div>
+           
           <div className='col-sm-3'>
               <div className='thumbnail slide jumbotron'>
                   <img src='https://i.ibb.co/TYHVjXH/logo-spotify.png' alt='Clone do Spotify'/>
