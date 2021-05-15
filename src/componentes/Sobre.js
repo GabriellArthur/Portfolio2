@@ -9,7 +9,6 @@ const Sobre = () => {
                <div className='col-sm-4'>
                   <img
                   src='https://i.ibb.co/ZXsR3xJ/imagem-2021-05-15-160024.png'
-                  alt="Clone do Spotify"
                   width='400'
                   />
                </div>
