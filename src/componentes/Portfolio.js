@@ -35,6 +35,7 @@ const Portfolio = (props) => {
           </ul>
         </div>
       </nav>
+      <div className="row card-container">
       <div className="col-sm-3">
         <div className="thumbnail slide jumbotron">
           <img
@@ -58,7 +59,6 @@ const Portfolio = (props) => {
           </div>
         </div>
       </div>
-      <div className="row card-container">
         <div className="col-sm-3">
           <div className="thumbnail slide jumbotron">
             <img
